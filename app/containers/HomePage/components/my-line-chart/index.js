@@ -51,10 +51,9 @@ var chartSeries = [
 
 export default class MyLineChart extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
-    console.log(chartData);
     return (
       <div style={styles.centeringFlexContainer}>
-        <h3 style={styles.header}>Line Chart</h3>
+        <h3 style={styles.header}>BMI and Age</h3>
         <LineChart
           title="BMI against"
           width={700}
@@ -62,6 +61,8 @@ export default class MyLineChart extends React.PureComponent { // eslint-disable
           data={chartData}
           chartSeries= {chartSeries}
           x={x}
+          yLabel = {"BMI/Age"}
+          yLabelPosition = {"left"}
           style={styles.chart}
         />
       </div>
