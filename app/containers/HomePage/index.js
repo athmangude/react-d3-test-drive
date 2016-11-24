@@ -11,6 +11,7 @@
 
 import React from 'react';
 import MyLineChart from './components/my-line-chart';
+import TaiwanRefuseDisposal from './components/taiwan-refuse-disposal';
 
 const styles = {
   header: {
@@ -24,6 +25,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
       <div>
         <h1 style={styles.header}>Getting started with D3</h1>
         <MyLineChart />
+        <TaiwanRefuseDisposal />
       </div>
     );
   }
