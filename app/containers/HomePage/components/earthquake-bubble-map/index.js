@@ -27,7 +27,7 @@ const styles = {
 }
 
 var width = 960,
-  height = 960;
+  height = 400;
 
   var world = require('./world-50m.json');
   var earthquake = require('./earthquake.json');
