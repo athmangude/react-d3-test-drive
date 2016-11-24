@@ -97,7 +97,6 @@ var width = 700,
 
 export default class TaiwanRefuseDisposal extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
-    console.log(chartData);
     return (
       <div style={styles.centeringFlexContainer}>
         <h3 style={styles.header}>Taiwan Refuse Disposal</h3>
